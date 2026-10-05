@@ -1,0 +1,15 @@
+[project]
+name = "password-checker"
+version = "1.0.0"
+description = "Password strength checker using rules and a common list."
+authors = [{ name = "Abdelrahman Awad" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I"]
