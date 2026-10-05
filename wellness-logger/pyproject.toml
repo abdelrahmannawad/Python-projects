@@ -1,0 +1,15 @@
+[project]
+name = "wellness-logger"
+version = "1.0.0"
+description = "Zero-setup CLI to log workouts, calories, sleep, and water — local CSV storage."
+authors = [{ name = "Abdelrahman Awad" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I"]
